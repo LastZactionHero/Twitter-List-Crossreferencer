@@ -1,0 +1,384 @@
+Twitter User List Crossreferencer
+
+This script finds similar Twitter users by crossreferencing Twitter lists. Given a user, the tool downloads every list that contains the user, and identifies any other users on 2+ of these lists.
+
+**Twitter Rate Limit Warning**
+Twitter throttles requests to 150 an hour. For popular users on lots of lists, you may only be able to run this tool one time per hour.
+
+Usage:
+ruby twitter_list_crossreferencer.rb <SCREEN_NAME>
+
+
+This example finds similar users to the music blog @pitchforkmedia:
+``ruby twitter_list_crossreferencer.rb pitchforkmedia
+
+SBTRKT
+2 references
+SBTRKT
+Last band on at laneway adelaide tonight. Should be good!
+37808 followers
+
+
+
+TheAVClub
+2 references
+The AV Club
+No one's happy and they know it on this week's The Adventures Of Pete And Pete. http://t.co/HTdVOnYW
+185603 followers
+
+
+
+sxsw
+2 references
+SXSW
+#SXSW Interactive Session Spotlight: Android ≠ Android: Lessons Creating a JS Framework http://t.co/eBvBrbBu
+156286 followers
+
+
+
+nprmusic
+4 references
+nprmusic
+Who Says Classical Music Can't Be Sexy? http://t.co/SBr9rDR0
+72472 followers
+
+
+
+MIAuniverse
+2 references
+M.I.A 
+RT @benbronfman: its sad to see our media in such a state of unfounded gossipy nonsense when there are real problems in the world
+298473 followers
+
+
+
+matadorrecords
+3 references
+Matador Records
+under a month till the release of CEREMONY 'Zoo', get your pre-order bundles (7" + t-shirt) now http://t.co/ahpqcskD
+55001 followers
+
+
+
+radiohead
+8 references
+Radiohead
+We will be playing the Jisan @Valley_Rock Festival in South Korea on 27-29 July http://t.co/ZGBcuTfe
+536093 followers
+
+
+
+fleetfoxes
+3 references
+Fleet Foxes
+Follow @POORMOONband for updates on Christian and Casey's great album and upcoming tours!
+59410 followers
+
+
+
+RollingStone
+11 references
+Rolling Stone
+It's Fashion Week in NYC, but Joss Stone got fitted in L.A. with some new outfits for her tour. Here's a photo: http://t.co/Elhy7v0J
+925902 followers
+
+
+
+arcadefire
+3 references
+Arcade Fire
+The Ecstatic Music Festival: Richard performs the broadcast is live 7:30PM EST, Q2 radio, WNYC's John Schaeffer hosts. http://t.co/N1Sjpjok
+249059 followers
+
+
+
+jenesaispop
+2 references
+jenesaispop
+Lo de Lorena Álvarez ha sido la bomba http://t.co/ALj2AAkB
+19080 followers
+
+
+
+arzE
+2 references
+Ezra Koenig
+Error parsing user
+
+
+bjork
+3 references
+björk
+due to heath issues, tonight's björk show at the new york hall of science is cancelled. refunds will be available at point of purchase.
+261517 followers
+
+
+
+boniver
+5 references
+Bon Iver
+@CarolineReston: Get pre-sale tix for our UCD show right here: http://t.co/XvSAavSC
+170058 followers
+
+
+
+kanyewest
+3 references
+Kanye West
+Niggas in Paris video http://t.co/vX3vhKdx
+6509023 followers
+
+
+
+ladygaga
+5 references
+Lady Gaga
+omg and this one!! who did it!??!? http://t.co/BuWae50E
+19054874 followers
+
+
+
+wilco
+3 references
+WILCO
+Attention Miami: For the late night crowd. Be sure to catch Wilco's performance on Austin City Limits on @WLRN, chnl 17 @ 11:00 pm @acltv
+69544 followers
+
+
+
+gotye
+2 references
+gotye
+We're pleased to announce venue upgrades in Chicago & Minneapolis. Ticket links & on sale times here- Gotye HQ http://t.co/VIpWs0eu
+49674 followers
+
+
+
+ArcticMonkeys
+3 references
+Arctic Monkeys
+for those of you who missed the webcast, you can now watch 6 tracks from the Paris olympia on http://t.co/hX2F0a8q
+183995 followers
+
+
+
+TheDecemberists
+2 references
+The Decemberists
+RT @colinmeloy: And yea, did @thedecemberists' live record pre-order begin! T-shirts! Band-scribbled test-pressings. DIG IN! http://t.co ...
+322885 followers
+
+
+
+thefader
+5 references
+The FADER
+Listen to @FreddieGibbs and @YoungJeezy on "Mobbin." http://t.co/9b1T9kdl
+77763 followers
+
+
+
+NMEmagazine
+9 references
+NME Magazine
+Dexys Midnight Runners to release first new album in 27 years http://t.co/hUrU7MmB
+254344 followers
+
+
+
+teganandsara
+2 references
+Tegan and Sara
+Go check out Johnny + Shaun's new band here http://t.co/IAMiVFR0 Their new record came out Tuesday! You can get it on iTunes! It's awesome!
+161999 followers
+
+
+
+brooklynvegan
+3 references
+BrooklynVegan
+Sharon Van Etten is streaming live in concert from @WXPN right now http://t.co/pXx2iXvs
+61775 followers
+
+
+
+jtimberlake
+2 references
+Justin Timberlake 
+Did you know you can get the @intimemovie DVD/Blu-Ray tomorrow? http://t.co/brirqtc3
+8375019 followers
+
+
+
+Drake
+2 references
+Drizzy
+No time to get down this ain't no la di da...but I ain't never fucked wit' a menage a trois...It's three like the stripes on the a-di-das
+5673046 followers
+
+
+
+iTunesMusic
+7 references
+iTunes Music
+Do you like Jack White's new track "Love Interruption"? @RubyAmanfu sang backup. http://t.co/EshW7qr2 http://t.co/4FrUGeAW
+1872684 followers
+
+
+
+rcrdlbl
+4 references
+RCRD LBL
+@Braskyorg thank you! &lt;3
+30872 followers
+
+
+
+questlove
+2 references
+Questo of The Roots
+Questlove on Why J Dilla Was the Best Rap Producer of All Time | http://t.co/BWBlCaph http://t.co/tugZsRGT
+1900130 followers
+
+
+
+WarpRecords
+2 references
+Warp Records
+New commission from @miracalix 'Meeting You Seemed Easy' live in London and New York in March and April. Tickets & info http://t.co/z4YRsruF
+37976 followers
+
+
+
+ladyjaydiamond
+2 references
+Jay Diamond
+RT @CYNTHIA_DJMVP: If u be-little me n snake me cuz im a female but im styl a betta dj dan all u mans *middle finger* FUCK YOU yh
+1643 followers
+
+
+
+ComplexMusic
+2 references
+Complex Music
+Mixtape: @ChaseNCashe "The Heir Up There" http://t.co/cbDxnz4t
+3872 followers
+
+
+
+foofighters
+3 references
+Foo Fighters
+http://t.co/5vNS5Qj5
+607409 followers
+
+
+
+PearlJam
+2 references
+Pearl Jam Official
+The ukulele is a good listener, but chimes in when it’s helpful. It’s really one of the best relationships I’ve... http://t.co/1vpZT5xS
+1286564 followers
+
+
+
+BenFolds
+2 references
+benjamin folds
+Attn Nashville parents: Chad Chapin (tambo man) opening great music school in Nashville http://t.co/0sSdvvEz
+437975 followers
+
+
+
+BBC6MusicNews
+2 references
+BBC 6 Music News
+We made a download for you, in it: Barack Obama's playlist, Gorrilaz + a trip down Joy Division memory lane   http://t.co/Twnkr0qC
+65181 followers
+
+
+
+fucktyler
+2 references
+Tyler, The Creator
+i thought radical was it. ok. its not. http://t.co/UKbWYPdG
+764525 followers
+
+
+
+allsongs
+4 references
+All Songs Considered
+Happening right now The Cranberries are playing a Tiny Desk Concert  http://t.co/tfXrKq1i
+249342 followers
+
+
+
+trent_reznor
+4 references
+Trent Reznor
+RT @jetfury: Cheers to everyone for all the support with INVADA compilation!! As a little indie we need it... http://t.co/QuVU4SAe
+1130730 followers
+
+
+
+TheGRAMMYs
+2 references
+The GRAMMYs
+Error parsing user
+
+
+subpop
+2 references
+Sub Pop Records
+RT @SubPoplicity: Because who does not love the great outdoors? cc: @ShearwaterBand @REI :http://t.co/uaUKsRLv
+86920 followers
+
+
+
+stereogum
+5 references
+Stereogum
+The 5 Best Videos Of The Week http://t.co/pZR3bbLK
+89506 followers
+
+
+
+amazonmp3
+2 references
+Amazon MP3
+VERY COOL: Find out how to get $2 towards an MP3 gift for a limited time: http://t.co/9CKOfyy3 #amazonmp3isforlovers
+1568003 followers
+
+
+
+LanaDelRey
+2 references
+Lana Del Rey
+@jacob_m_brown You're Amazing Jacob- Can't wait to see it xx
+217167 followers
+
+
+
+PasteMagazine
+3 references
+Paste Magazine
+Sennheiser & Paste Present The Stages on Sixth During SXSW - Check out the lineup. http://t.co/bRZ1RPr3
+122116 followers
+
+
+
+guardianmusic
+4 references
+Guardian music
+junior junior junior spesh RT @jaxorredhot: "@adamnonfiction: The man behind Junior Spesh is on twitter - @jaxorredhot" yes i am lool
+106085 followers
+
+
+
+seetickets
+2 references
+seetickets
+Graham Coxon says there will be definitely be another Blur album. FANBOY WHOOP!
+22070 followers
+
