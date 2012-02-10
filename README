@@ -10,7 +10,7 @@ ruby twitter_list_crossreferencer.rb <SCREEN_NAME>
 
 
 This example finds similar users to the music blog @pitchforkmedia:
-``ruby twitter_list_crossreferencer.rb pitchforkmedia
+ruby twitter_list_crossreferencer.rb pitchforkmedia
 
 SBTRKT
 2 references
