@@ -126,8 +126,10 @@ json_user_count_list.keys.each do |count_key|
       puts user_json["screen_name"]
       puts "#{json_user_count_list[ count_key ]} references"    
       puts user_json["name"]
-      puts user_json["status"]["text"]
       puts "#{user_json["followers_count"]} followers"
+      puts "Status Count: #{user_json["statuses_count"]}"
+      puts user_json["status"]["text"]
+      puts "Last update: #{user_json["status"]["created_at"]}"            
       puts "\n\n\n"
     rescue
       puts "Error parsing user\n\n\n"
