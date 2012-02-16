@@ -15,17 +15,17 @@ end
 def write_html_header!( file, source_screen_name )
   file << "<html><head><title>Similar Sources to @#{source_screen_name}</title></head>"
   file << "<script type='text/javascript' src='jquery-1.7.1.min.js'></script>"
-  file << "</head><body><ul>"
+  file << "</head><body>"
 end
 
 def write_html_footer!( file )
-  file << "</ul></body></html>"
+  file << "</body></html>"
 end
 
 def write_html_user!( file, user_json )
   screen_name = user_json['screen_name']
   
-  file << "<li id='user_#{screen_name}'>"
+  file << "<div id='user_#{screen_name}'>"
   file << "<a href='https://twitter.com/#!/" + screen_name + "' target='_blank'>#{screen_name}</a>"
     
   file << "<table>"    
@@ -35,10 +35,10 @@ def write_html_user!( file, user_json )
   file << "<tr><td>Last Status</td><td>#{user_json['status']['text']}<br/>"
   file << "<tr><td>Last Status Time</td><td>#{user_json['status']['created_at']}</td></tr>"
   file << "<tr><td></td><td></td></tr>"
-  file << "<tr><td><a href='#' onclick=\"$( '#user_" + screen_name + "' ).remove() \">Remove</a></td><td></td></tr>"
+  file << "<tr><td><a href='#' onclick=\"$( '#user_" + screen_name + "' ).remove(); return false;\">Mark Bad</a></td><td></td></tr>"
   file << "</table>"              
   file << "<br/><br/><br/>"
-  file << "</li>"  
+  file << "</div>"  
 end
 
 
