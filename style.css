@@ -1,0 +1,20 @@
+body {
+  font-family: Arial;
+  font-size: 0.875em;
+}
+
+li {
+  list-style-type: none;  
+  padding: 24px 0px 24px 0px;
+  border-top: 1px dotted #CCCCCC;
+}
+
+td {
+  padding: 0px 24px 4px 0px;
+  font-size: 0.875em;  
+}
+
+td.title {
+  font-size: 1.125em;
+  font-weight: bold;
+}
