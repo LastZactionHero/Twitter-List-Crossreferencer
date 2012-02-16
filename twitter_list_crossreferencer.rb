@@ -37,8 +37,8 @@ def write_html_user!( file, user_json )
   file << "<tr><td></td><td></td></tr>"
   file << "<tr><td><a href='#' onclick=\"$( '#user_" + screen_name + "' ).remove() \">Remove</a></td><td></td></tr>"
   file << "</table>"              
-  file << "</li>"
   file << "<br/><br/><br/>"
+  file << "</li>"  
 end
 
 
