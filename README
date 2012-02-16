@@ -8,6 +8,10 @@ Twitter throttles requests to 150 an hour. For popular users on lots of lists, y
 Usage:
 ruby twitter_list_crossreferencer.rb <SCREEN_NAME>
 
+Outputs: output_<SCREEN_NAME>.html
+
+
+
 
 This example finds similar users to the music blog @pitchforkmedia:
 ruby twitter_list_crossreferencer.rb pitchforkmedia
